@@ -7,9 +7,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/Theme.RecyclerOnClick">
-        <activity android:name=".ShowMathActivity"></activity>
+        <activity android:name=".single_select.SelectorActivity"></activity>
+        <activity android:name=".rv_onclick_bundle_data.BndleShow" />
+        <activity android:name=".rv_onclick_bundle_data.BandleActivity" />
+        <activity android:name=".rv_normal_book.NormalActivity" />
+        <activity android:name=".rv_with_binding.MainBinding" />
+        <activity android:name=".rv_normal_book.ShowMathActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

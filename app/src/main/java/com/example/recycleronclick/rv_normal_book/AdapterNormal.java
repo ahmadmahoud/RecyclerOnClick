@@ -1,4 +1,4 @@
-package com.example.recycleronclick;
+package com.example.recycleronclick.rv_normal_book;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,16 +10,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.recycleronclick.R;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.ArrayList;
 
-public class Adapter extends RecyclerView.Adapter<Adapter.Holder> {
+public class AdapterNormal extends RecyclerView.Adapter<AdapterNormal.Holder> {
     ArrayList<Data> personal;
     Context context;
     Onclicker onclicker;
 
-    public Adapter(ArrayList<Data> personal, Context context, Onclicker onclicker) {
+    public AdapterNormal(ArrayList<Data> personal, Context context, Onclicker onclicker) {
         this.personal = personal;
         this.context = context;
         this.onclicker = onclicker;

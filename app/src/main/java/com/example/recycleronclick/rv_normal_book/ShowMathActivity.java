@@ -1,9 +1,10 @@
-package com.example.recycleronclick;
+package com.example.recycleronclick.rv_normal_book;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.recycleronclick.R;
 import com.github.barteksc.pdfviewer.PDFView;
 
 public class ShowMathActivity extends AppCompatActivity {
